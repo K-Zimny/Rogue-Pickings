@@ -2,7 +2,7 @@
 
 <h3>HTML and CSS restaurant website</h3>
 
-Site can be view at: https://k-zimny.github.io/Rogue-Pickings/
+Site can be viewed at: https://k-zimny.github.io/Rogue-Pickings/
 
 File Description: 
 
