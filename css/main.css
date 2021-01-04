@@ -1,0 +1,166 @@
+
+/************************* BASE STYLES *************************/
+
+body{
+    color:#000000;
+    font-family: Montserrat;  
+}
+
+/************************* CLASSES *************************/
+
+.bottom-section-title{
+    font-weight:bold;
+    font-size:12px;
+    line-height:25px;
+    margin: 22.5px 30px 17.5px 0;
+    text-align:left;
+    text-transform: uppercase;
+}
+
+/************************* GRID *************************/
+
+.full-width{
+    margin: 0 auto;
+    overflow: auto;
+    width: 1200px;
+}
+
+.half-width{
+    float:left;
+    width:600px;
+}
+
+.third-width{
+    float:left;
+    width:400px;
+}
+
+/************************* HEADER *************************/
+
+header h1{
+    font-size: 30px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+header h1 span{
+    color: #77a466;
+}
+
+nav{
+     float:left;
+}
+
+nav ul{
+    margin-top: 27.5px;
+}
+
+nav ul li{
+    display: inline-block;
+}
+
+nav ul li a{
+    color:#77a466;
+    font-size: 14px;
+    font-weight:bold;
+    line-height:23px;
+    padding-left: 24px;
+    text-decoration:none;
+    text-transform:uppercase;
+}
+
+/******************** TOP SECTION *************************/
+
+#top-section #hero-image{
+    border-color: #77a466;
+    border-style:solid;
+    border-width:3px 0;
+}
+
+#top-section #about{
+    color:#77a466;
+    font-size:18px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin: 25px 0;
+}
+
+#top-section p{
+    font-size:16px; 
+    line-height:25px;
+    margin: 0 40px 31.5px 0;
+}
+
+/************************* BOTTOM SECTION *************************/
+
+/* Borders */
+#bottom-section .full-width{
+    border-top-style: solid;
+    border-width: 1px;
+    border-color: #dedbdc;
+}
+
+#bottom-section #review-border{
+    border-color: #dedbdc;
+    border-left-style: solid;
+    border-right-style: solid;
+    border-width: 1px;
+    margin: 0 -1px 0 -1px;
+}
+
+/* Menu */
+ #bottom-section #item-one, #item-two, #item-three{
+    color:#77a466;
+    font-size:16px;
+    line-height:18px;
+    text-align:left;
+ }
+
+ /* Review */
+#bottom-section #review-title{
+    margin-left: 30px;
+ }
+
+ #bottom-section #review-content{
+    font-size:16px;
+    line-height:21px;
+    margin: 6px 30px 22.5px 30px;
+ }
+
+ /* Contact */
+ #bottom-section #contact-title{
+    margin-left: 30px;
+    text-align:left;
+ }
+
+ #bottom-section #contact-content{
+    font-size: 16px;
+    line-height:24px;
+    text-align:left;
+    margin:6px 30px;
+ }
+
+/************************* FOOTER *************************/
+
+footer .full-width{
+    border-color: #dedbdc;
+    border-top-style: solid;
+    border-width: 1px;
+    font-size: 11px;
+    font-weight:bold; 
+    line-height: 23px;
+    padding: 24.5px 0;
+    text-align:center;
+    text-transform: uppercase; 
+}
+
+footer h2{
+        margin: 0 auto;
+}
+
+footer span{
+    color: #77a466;
+    font-family: 'Galada', cursive;
+    font-weight:normal;
+    text-transform: none;
+}
